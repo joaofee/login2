@@ -1,0 +1,140 @@
+
+  body{
+    font-family: Arial, Helvetica, sans-serif;
+    
+    
+    background-image: linear-gradient(to left,rgb(24, 23, 21), rgb(148, 97, 3));
+    min-width: 100vh;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+} 
+
+    h2 {
+        display: flex;
+        justify-content: center;
+        margin-top: -08px;
+       
+    }
+  
+
+
+.conteiner{
+    
+   display: flex;
+   min-width:40vh;
+    max-width:350px;
+
+    
+    color: white;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 2rem;
+    border-radius: 50px ;
+    box-shadow: 0px 0px 20px ;
+    
+    
+    
+}
+.input-field{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+    font-size: 15px ;
+    
+    }
+ #username , #password{
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    background-color: transparent;
+    border: none;
+    font-size: 18px;
+    background: transparent;
+    color: antiquewhite;
+    letter-spacing: normal;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid;
+    
+ }
+ form {
+    display: flex;
+    flex-direction: column;
+ }
+ 
+    
+/* #senha, #nome_login{
+    position: relative;
+    width: 80%;
+    left: -22%;
+    top: 50%;
+    padding: 10px;
+    font-size: 15px;
+    background: transparent;
+    color: antiquewhite;
+    letter-spacing: normal;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid;
+    margin: auto;
+    transform: translate(30%);
+    
+    
+}
+/*/
+ 
+  
+
+
+#submit {
+position: relative;
+top: -19px;
+background-image: linear-gradient(to right,rgb(233, 154, 6), rgb(180, 1, 16));
+width: 100%;
+border: none;
+padding: 15px;
+color: white;
+font-size: 15px;
+cursor: pointer;
+border-radius: 10px;
+}
+#submit:hover{
+background-image: linear-gradient(to left,rgb(180, 1, 16), rgb(180, 1, 16));
+}
+.esquecer {
+    display: flex;
+    color: azure;
+    padding: 10px;
+    
+}
+/*/.esquecer:hover{
+    background-color: rgb(190, 148, 8);
+
+}/*/
+#esquecer {
+    color: azure;
+    text-decoration: none;
+    
+}
+.rg {
+   display: flex;
+   justify-content: center;
+   gap: 1%;
+   
+}
+
+.conteiner img{
+    width: 30%;
+    display: flex;
+    
+    flex-wrap: wrap;
+margin-top: -30px;
+margin-left: 120px;
+    
+}
+
+
