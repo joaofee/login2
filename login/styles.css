@@ -3,12 +3,16 @@
     font-family: Arial, Helvetica, sans-serif;
     
     
-    background-image: linear-gradient(to left,rgb(24, 23, 21), rgb(148, 97, 3));
-    min-width: 100vh;
-    min-height: 100vh;
+    background-image: url("img/Depositphotos_325305270_L.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
     display: flex;
-    align-items: center;
     justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+    margin-left: 45%;
     
     
 } 
